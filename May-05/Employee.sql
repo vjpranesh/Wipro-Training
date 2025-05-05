@@ -33,3 +33,43 @@ SELECT Name, Salary,
 FROM Employees;
 
 
+WINDOW FUNCTION - OVER()
+SELECT
+     Name,
+	 Department,
+	 Salary,
+	 AVG(Salary) OVER() AS AvgSalary
+FROM Employees;
+
+WINDOW FUNCTION - PARTITION BY
+SELECT
+     Name,
+	 Department,
+	 Salary,
+	 AVG(Salary) OVER(PARTITION BY Department) AS DeptAvgSalary
+FROM Employees;
+
+RANKING FUNCTION - ROW_NUMBER()
+SELECT
+     Name,
+	 Department,
+	 Salary,
+	 ROW_NUMBER() OVER(PARTITION BY Department ORDER BY Salary DESC) AS RowNum
+FROM Employees;
+
+RANKING FUNCTION - RANK()
+SELECT
+     Name,
+	 Department,
+	 Salary,
+	 RANK() OVER(ORDER BY Salary DESC) AS RankBySalary
+FROM Employees;
+
+
+
+
+
+
+
+
+
