@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -6,7 +7,7 @@ class Program
     {
         string[] words = sentence.ToLower().Split(' ');
         Dictionary<string, int> wordCount = new Dictionary<string, int>();
-        Lsit<string> duplicates = new List<string>();
+        List<string> duplicates = new List<string>();
 
         foreach (string word in words)
         {
@@ -32,6 +33,6 @@ class Program
     static void Main()
     {
         string input = "this is a test and this test is fun";
-        PrintDuplicateWorda(input);
+        PrintDuplicateWords(input);
     }
 }
