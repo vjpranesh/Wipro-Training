@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace Linq_Practice
+namespace Linq_Practice //language integrated query
 {
     class Program
     {
