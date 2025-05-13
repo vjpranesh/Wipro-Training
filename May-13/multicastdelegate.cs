@@ -23,7 +23,7 @@ namespace Simple_delegate
         static void Main()
         {
             // declare instances of the custom delegate
-            CustomDel hiDel, byeDel, multiDel;
+            CustomDel hiDel, byeDel, multiDel, multiMinusHiDel;
 
             hiDel = Hello;
 
@@ -37,6 +37,10 @@ namespace Simple_delegate
             //MULTICAST DELEGATE 
             multiDel = hiDel + byeDel;
 
+            //remove hiDel from the multicast delegate, leaving byeDel,
+            //which calls only the method Goodbye
+            multiMinusHiDel = multiDel - hiDel;
+
             Console.WriteLine("Invoking delegate hiDel:");
             hiDel("A");
 
@@ -45,7 +49,11 @@ namespace Simple_delegate
 
             Console.WriteLine("Invoking delegate multiDel:");
             multiDel("C");
+
+            Console.Write("Invoking delegate multiMinusHiDel:");
+            multiMinusHiDel("D");
         }
     }
 }
+
 
