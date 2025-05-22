@@ -24,9 +24,9 @@ class Program
            new Student { Name = "Vikram", Marks = 80 }
         };
         var topStudents = students
-        .OrderByDescending(s => s.Marks)
-        .Take(3)
-        .ToList();
+            .OrderByDescending(s => s.Marks)
+            .Take(3)
+            .ToList();
 
         Console.WriteLine("Top 3 scoring students:");
         foreach (var student in topStudents)
