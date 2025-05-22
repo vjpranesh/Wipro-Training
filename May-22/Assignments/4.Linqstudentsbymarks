@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+
+class Student
+{
+    public string Name { get; set; }
+    public int Marks { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        List<Student> students = new List<Student>
+        {
+
+           new Student { Name = "Ram", Marks = 87 },
+           new Student { Name = "Arul", Marks = 78 },
+           new Student { Name = "Reena", Marks = 96 },
+           new Student { Name = "Varun", Marks = 80 },
+           new Student { Name = "Sneha", Marks = 92 },
+           new Student { Name = "Vikram", Marks = 80 }
+        };
+        var topStudents = students
+        .OrderByDescending(s => s.Marks)
+        .Take(3)
+        .ToList();
+
+        Console.WriteLine("Top 3 scoring students:");
+        foreach (var student in topStudents)
+        {
+            Console.WriteLine($"{student.Name} - {student.Marks} marks");
+        }
+    }
+}
