@@ -2,7 +2,7 @@ using System;
 
 
 //Interface 
- interface IPaymentProcessor
+interface IPaymentProcessor
 {
     void ProcessPayment();
 }
@@ -11,14 +11,20 @@ using System;
 abstract class PaymentGateway
 {
     public string GatewayName { get; set; }
+    public decimal Amount { get; set; }
+
+    public PaymentGateway (decimal amount)
+    {
+        Amount = amount;
+    }
     public abstract bool Validate();
 
 }
 
 //Razorpay
- class Razorpay : PaymentGateway, IPaymentProcessor
+class Razorpay : PaymentGateway, IPaymentProcessor
 {
-    public Razorpay()
+    public Razorpay(decimal amount) : base(amount)
     {
         GatewayName = "Razorpay";
     }
@@ -31,15 +37,15 @@ abstract class PaymentGateway
     {
         if (Validate())
         {
-            Console.WriteLine($"{GatewayName}: Processing Razorpay payment");
+            Console.WriteLine($"{GatewayName}: Processing payment of ${Amount}");
         }
     }
 }
 
 //PayPal
- class PayPal : PaymentGateway, IPaymentProcessor
+class PayPal : PaymentGateway, IPaymentProcessor
 {
-    public PayPal()
+    public PayPal(decimal amount ) : base(amount) 
     {
         GatewayName = "PayPal";
     }
@@ -52,15 +58,15 @@ abstract class PaymentGateway
     {
         if (Validate())
         {
-            Console.WriteLine($"{GatewayName}: Processing PayPal payment");
+            Console.WriteLine($"{GatewayName}: Processing payment of ${Amount}");
         }
     }
 }
 
 //Stripe
- class Stripe : PaymentGateway, IPaymentProcessor
+class Stripe : PaymentGateway, IPaymentProcessor
 {
-    public Stripe()
+    public Stripe(decimal amount) : base(amount) 
     {
         GatewayName = "Stripe";
     }
@@ -73,7 +79,7 @@ abstract class PaymentGateway
     {
         if (Validate())
         {
-            Console.WriteLine($"{GatewayName}: Processsing Stripe payment");
+            Console.WriteLine($"{GatewayName}: Processsing payment of ${Amount}");
         }
     }
 }
@@ -84,9 +90,9 @@ class Program
     {
         List<IPaymentProcessor> payments = new List<IPaymentProcessor>
         {
-            new Razorpay(),
-            new PayPal(),
-            new Stripe()
+            new Razorpay(1000),
+            new PayPal(2000),
+            new Stripe(3000)
         };
         foreach (var payment in payments)
         {
