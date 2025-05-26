@@ -2,21 +2,21 @@ using System;
 
 
 //Interface 
-public interface IPaymentProcessor
+ interface IPaymentProcessor
 {
     void ProcessPayment();
 }
 
 //abstract class
-public abstract class PaymentGateway
+abstract class PaymentGateway
 {
-    public string GatewayName {  get; set; }
+    public string GatewayName { get; set; }
     public abstract bool Validate();
 
 }
 
 //Razorpay
-public class Razorpay : PaymentGateway,IPaymentProcessor
+ class Razorpay : PaymentGateway, IPaymentProcessor
 {
     public Razorpay()
     {
@@ -37,7 +37,7 @@ public class Razorpay : PaymentGateway,IPaymentProcessor
 }
 
 //PayPal
-public class PayPal : PaymentGateway, IPaymentProcessor
+ class PayPal : PaymentGateway, IPaymentProcessor
 {
     public PayPal()
     {
@@ -58,7 +58,7 @@ public class PayPal : PaymentGateway, IPaymentProcessor
 }
 
 //Stripe
-public class Stripe : PaymentGateway, IPaymentProcessor
+ class Stripe : PaymentGateway, IPaymentProcessor
 {
     public Stripe()
     {
@@ -88,7 +88,7 @@ class Program
             new PayPal(),
             new Stripe()
         };
-        foreach ( var payment in payments)
+        foreach (var payment in payments)
         {
             payment.ProcessPayment();
             Console.WriteLine();
