@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\controllers\\aboutuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\aboutuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|c:\\users\\admin\\source\\repos\\webapplication12\\webapplication12\\migrations\\20250527040119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B32A976F-3B17-4BA7-9EB5-471C5408CB4B}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\migrations\\20250527040119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\AboutUs\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication12\\Views\\AboutUs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\AboutUs\\Index.cshtml",
-              "RelativeToolTip": "WebApplication12\\Views\\AboutUs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "WebApplication12\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "WebApplication12\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T07:57:19.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AboutUsController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\AboutUsController.cs",
-              "RelativeDocumentMoniker": "WebApplication12\\Controllers\\AboutUsController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\AboutUsController.cs",
-              "RelativeToolTip": "WebApplication12\\Controllers\\AboutUsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:19:23.151Z",
+              "WhenOpened": "2025-05-27T09:08:02.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContactUsController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\ContactUsController.cs",
-              "RelativeDocumentMoniker": "WebApplication12\\Controllers\\ContactUsController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\ContactUsController.cs",
-              "RelativeToolTip": "WebApplication12\\Controllers\\ContactUsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:18:16.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication12\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication12\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswBwAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T04:32:04.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication12\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication12\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:10:44.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebApplication12\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "WebApplication12\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wBYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:56:55.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250527040119_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Migrations\\20250527040119_InitialCreate.cs",
-              "RelativeDocumentMoniker": "WebApplication12\\Migrations\\20250527040119_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Migrations\\20250527040119_InitialCreate.cs",
-              "RelativeToolTip": "WebApplication12\\Migrations\\20250527040119_InitialCreate.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:01:19.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebApplication12\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication12\\WebApplication12\\Models\\Product.cs",
-              "RelativeToolTip": "WebApplication12\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:51:36.031Z",
+              "WhenOpened": "2025-05-27T08:52:59.249Z",
               "EditorCaption": ""
             }
           ]
