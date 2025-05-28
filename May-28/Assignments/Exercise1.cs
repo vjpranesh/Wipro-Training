@@ -1,3 +1,6 @@
+//List all customers (SqlDataReader)
+
+
 using System;
 using System.Data.SqlClient;
 
