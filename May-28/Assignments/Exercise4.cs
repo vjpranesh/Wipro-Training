@@ -5,16 +5,7 @@ using System.Data.SqlClient;
 
 class UpdateEmployee
 {
-    static void Main()
-    {
-        Console.WriteLine("Enter EmployeeID:");
-        int employeeId = int.Parse(Console.ReadLine());
-
-        Console.Write("Enter new Title:");
-        string newTitle = Console.ReadLine();
-
-        UpdateEmployeeTitle(employeeId, newTitle);
-    }
+    
 
     static void UpdateEmployeeTitle(int employeeId, string newTitle)
     {
@@ -57,5 +48,15 @@ class UpdateEmployee
                 conn.Close();
             }
         }
+    }
+    static void Main()
+    {
+        Console.WriteLine("Enter EmployeeID:");
+        int employeeId = int.Parse(Console.ReadLine());
+
+        Console.Write("Enter new Title:");
+        string newTitle = Console.ReadLine();
+
+        UpdateEmployeeTitle(employeeId, newTitle);
     }
 }

@@ -5,12 +5,7 @@ using System.Data.SqlClient;
 
 class SqlConnectionDemo
 {
-    static void Main()
-    {
-        Console.WriteLine("Enter CustomerID:");
-        string customerId = Console.ReadLine();
-        GetOrdersByCustomer(customerId);
-    }
+    
     static void GetOrdersByCustomer(string customerId)
     {
         SqlConnection conn = new SqlConnection(
@@ -66,5 +61,11 @@ class SqlConnectionDemo
                 conn.Close();
             }
         }
+    }
+    static void Main()
+    {
+        Console.WriteLine("Enter CustomerID:");
+        string customerId = Console.ReadLine();
+        GetOrdersByCustomer(customerId);
     }
 }

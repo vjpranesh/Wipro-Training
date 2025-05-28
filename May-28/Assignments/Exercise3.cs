@@ -5,10 +5,7 @@ using System.Data.SqlClient;
 
 class InsertProduct
 {
-    static void Main()
-    {
-        InsertNewProduct("Test Product", 1, 1, 25);
-    }
+    
     static void InsertNewProduct(string productName, int supplierId, int categoryId, decimal unitPrice)
     {
         SqlConnection conn = new SqlConnection(
@@ -54,5 +51,9 @@ class InsertProduct
                 conn.Close();
             }
         }
+    }
+    static void Main()
+    {
+        InsertNewProduct("Test Product", 1, 1, 25);
     }
 }
