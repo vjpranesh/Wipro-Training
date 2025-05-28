@@ -1,4 +1,4 @@
-//Dsiplay Total Sales by Category (GROUP BY + Aggregation)
+//Display Total Sales by Category (GROUP BY + Aggregation)
 
 using System;
 using System.Data;
